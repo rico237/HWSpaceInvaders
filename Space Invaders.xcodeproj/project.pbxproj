@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F6133C3191D470A007EA336 /* pixelheart3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F6133C2191D470A007EA336 /* pixelheart3.png */; };
+		1F6133C6191E3ADF007EA336 /* Heart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6133C5191E3ADF007EA336 /* Heart.m */; };
+		7110E97417D015F6007184EE /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 7110E97317D015F6007184EE /* Ship.m */; };
+		71259A97183B5CA80080E6B3 /* spaceinvader.png in Resources */ = {isa = PBXBuildFile; fileRef = 71259A99183B5CA80080E6B3 /* spaceinvader.png */; };
+		71368BE817C8FE390034E6B6 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 71368BEA17C8FE390034E6B6 /* ship.png */; };
+		71368BED17C8FE810034E6B6 /* tire.png in Resources */ = {isa = PBXBuildFile; fileRef = 71368BEF17C8FE810034E6B6 /* tire.png */; };
+		71368DB117C95FD40034E6B6 /* action.png in Resources */ = {isa = PBXBuildFile; fileRef = 71368DB317C95FD40034E6B6 /* action.png */; };
 		713BAA2317C4DD0900542B0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713BAA2217C4DD0900542B0A /* Foundation.framework */; };
 		713BAA2517C4DD0900542B0A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713BAA2417C4DD0900542B0A /* CoreGraphics.framework */; };
 		713BAA2717C4DD0900542B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713BAA2617C4DD0900542B0A /* UIKit.framework */; };
@@ -22,6 +29,11 @@
 		713BAA4717C4DD0900542B0A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713BAA2617C4DD0900542B0A /* UIKit.framework */; };
 		713BAA4F17C4DD0900542B0A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 713BAA4D17C4DD0900542B0A /* InfoPlist.strings */; };
 		713BAA5117C4DD0900542B0A /* Space_InvadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713BAA5017C4DD0900542B0A /* Space_InvadersTests.m */; };
+		71443A3A17E5C7590058BCAB /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71443A3917E5C7590058BCAB /* SettingsVC.m */; };
+		71443A3C17E5C7B50058BCAB /* Settings_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71443A3B17E5C7B50058BCAB /* Settings_iPhone.storyboard */; };
+		7158FD2217DA43F400A20509 /* IntroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7158FD2117DA43F400A20509 /* IntroVC.m */; };
+		7158FD2317DA502700A20509 /* Intro_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7158FD1E17DA432D00A20509 /* Intro_iphone.storyboard */; };
+		719B6CDA17CE23BD006CEECD /* Invader.m in Sources */ = {isa = PBXBuildFile; fileRef = 719B6CD917CE23BD006CEECD /* Invader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F6133C2191D470A007EA336 /* pixelheart3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pixelheart3.png; sourceTree = "<group>"; };
+		1F6133C4191E3ADF007EA336 /* Heart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heart.h; sourceTree = "<group>"; };
+		1F6133C5191E3ADF007EA336 /* Heart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Heart.m; sourceTree = "<group>"; };
+		7110E97217D015F6007184EE /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		7110E97317D015F6007184EE /* Ship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
+		71259A98183B5CA80080E6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/spaceinvader.png; sourceTree = "<group>"; };
+		71368BE917C8FE390034E6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/ship.png; sourceTree = "<group>"; };
+		71368BEE17C8FE810034E6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/tire.png; sourceTree = "<group>"; };
+		71368DB217C95FD40034E6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/action.png; sourceTree = "<group>"; };
 		713BAA1F17C4DD0900542B0A /* Space Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Invaders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		713BAA2217C4DD0900542B0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		713BAA2417C4DD0900542B0A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +76,14 @@
 		713BAA4C17C4DD0900542B0A /* Space InvadersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space InvadersTests-Info.plist"; sourceTree = "<group>"; };
 		713BAA4E17C4DD0900542B0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		713BAA5017C4DD0900542B0A /* Space_InvadersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_InvadersTests.m; sourceTree = "<group>"; };
+		71443A3817E5C7590058BCAB /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		71443A3917E5C7590058BCAB /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		71443A3B17E5C7B50058BCAB /* Settings_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Settings_iPhone.storyboard; sourceTree = "<group>"; };
+		7158FD1E17DA432D00A20509 /* Intro_iphone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Intro_iphone.storyboard; sourceTree = "<group>"; };
+		7158FD2017DA43F400A20509 /* IntroVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroVC.h; sourceTree = "<group>"; };
+		7158FD2117DA43F400A20509 /* IntroVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroVC.m; sourceTree = "<group>"; };
+		719B6CD817CE23BD006CEECD /* Invader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invader.h; sourceTree = "<group>"; };
+		719B6CD917CE23BD006CEECD /* Invader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +110,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7110E96E17D01477007184EE /* Objets */ = {
+			isa = PBXGroup;
+			children = (
+				719B6CD817CE23BD006CEECD /* Invader.h */,
+				719B6CD917CE23BD006CEECD /* Invader.m */,
+				7110E97217D015F6007184EE /* Ship.h */,
+				7110E97317D015F6007184EE /* Ship.m */,
+				1F6133C4191E3ADF007EA336 /* Heart.h */,
+				1F6133C5191E3ADF007EA336 /* Heart.m */,
+			);
+			name = Objets;
+			sourceTree = "<group>";
+		};
 		713BAA1617C4DD0900542B0A = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +156,10 @@
 		713BAA2817C4DD0900542B0A /* Space Invaders */ = {
 			isa = PBXGroup;
 			children = (
+				7161C80F17C4F0D6006ECE39 /* Ressources */,
+				7110E96E17D01477007184EE /* Objets */,
+				7158FD1D17DA42D400A20509 /* Intro */,
+				71443A3717E5C6DB0058BCAB /* Settings */,
 				713BAA3117C4DD0900542B0A /* AppDelegate.h */,
 				713BAA3217C4DD0900542B0A /* AppDelegate.m */,
 				713BAA3417C4DD0900542B0A /* Main_iPhone.storyboard */,
@@ -153,6 +199,38 @@
 				713BAA4D17C4DD0900542B0A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71443A3717E5C6DB0058BCAB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				71443A3B17E5C7B50058BCAB /* Settings_iPhone.storyboard */,
+				71443A3817E5C7590058BCAB /* SettingsVC.h */,
+				71443A3917E5C7590058BCAB /* SettingsVC.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7158FD1D17DA42D400A20509 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				7158FD1E17DA432D00A20509 /* Intro_iphone.storyboard */,
+				7158FD2017DA43F400A20509 /* IntroVC.h */,
+				7158FD2117DA43F400A20509 /* IntroVC.m */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		7161C80F17C4F0D6006ECE39 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				71368DB317C95FD40034E6B6 /* action.png */,
+				71368BEF17C8FE810034E6B6 /* tire.png */,
+				71368BEA17C8FE390034E6B6 /* ship.png */,
+				1F6133C2191D470A007EA336 /* pixelheart3.png */,
+				71259A99183B5CA80080E6B3 /* spaceinvader.png */,
+			);
+			name = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +280,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Herrick Wolber";
 				TargetAttributes = {
+					713BAA1E17C4DD0900542B0A = {
+						DevelopmentTeam = X776XA45RM;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
+					};
 					713BAA4217C4DD0900542B0A = {
 						TestTargetID = 713BAA1E17C4DD0900542B0A;
 					};
@@ -231,10 +317,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71368BED17C8FE810034E6B6 /* tire.png in Resources */,
+				7158FD2317DA502700A20509 /* Intro_iphone.storyboard in Resources */,
+				1F6133C3191D470A007EA336 /* pixelheart3.png in Resources */,
 				713BAA3917C4DD0900542B0A /* Main_iPad.storyboard in Resources */,
+				71443A3C17E5C7B50058BCAB /* Settings_iPhone.storyboard in Resources */,
+				71368DB117C95FD40034E6B6 /* action.png in Resources */,
 				713BAA3E17C4DD0900542B0A /* Images.xcassets in Resources */,
 				713BAA3617C4DD0900542B0A /* Main_iPhone.storyboard in Resources */,
 				713BAA2D17C4DD0900542B0A /* InfoPlist.strings in Resources */,
+				71368BE817C8FE390034E6B6 /* ship.png in Resources */,
+				71259A97183B5CA80080E6B3 /* spaceinvader.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +347,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				713BAA3C17C4DD0900542B0A /* ViewController.m in Sources */,
+				719B6CDA17CE23BD006CEECD /* Invader.m in Sources */,
 				713BAA3317C4DD0900542B0A /* AppDelegate.m in Sources */,
+				71443A3A17E5C7590058BCAB /* SettingsVC.m in Sources */,
+				7158FD2217DA43F400A20509 /* IntroVC.m in Sources */,
 				713BAA2F17C4DD0900542B0A /* main.m in Sources */,
+				1F6133C6191E3ADF007EA336 /* Heart.m in Sources */,
+				7110E97417D015F6007184EE /* Ship.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +376,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		71259A99183B5CA80080E6B3 /* spaceinvader.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71259A98183B5CA80080E6B3 /* Base */,
+			);
+			name = spaceinvader.png;
+			sourceTree = "<group>";
+		};
+		71368BEA17C8FE390034E6B6 /* ship.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71368BE917C8FE390034E6B6 /* Base */,
+			);
+			name = ship.png;
+			path = ../imgs;
+			sourceTree = "<group>";
+		};
+		71368BEF17C8FE810034E6B6 /* tire.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71368BEE17C8FE810034E6B6 /* Base */,
+			);
+			name = tire.png;
+			path = ../imgs;
+			sourceTree = "<group>";
+		};
+		71368DB317C95FD40034E6B6 /* action.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71368DB217C95FD40034E6B6 /* Base */,
+			);
+			name = action.png;
+			sourceTree = "<group>";
+		};
 		713BAA2B17C4DD0900542B0A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,10 +520,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Space Invaders/Space Invaders-Prefix.pch";
 				INFOPLIST_FILE = "Space Invaders/Space Invaders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -401,10 +538,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Space Invaders/Space Invaders-Prefix.pch";
 				INFOPLIST_FILE = "Space Invaders/Space Invaders-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -468,6 +610,7 @@
 				713BAA5617C4DD0900542B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713BAA5717C4DD0900542B0A /* Build configuration list for PBXNativeTarget "Space InvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +619,7 @@
 				713BAA5917C4DD0900542B0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
